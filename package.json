@@ -1,0 +1,21 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "Learn Vue JS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/rajatdhoot123.git"
+  },
+  "keywords": [
+    "Vue"
+  ],
+  "author": "Rajat Dhoot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/rajatdhoot123/issues"
+  },
+  "homepage": "https://github.com/github.com/rajatdhoot123#readme"
+}
