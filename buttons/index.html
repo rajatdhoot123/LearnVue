@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<div class="container">
+  	<div class="row">
+			<div id="app">
+        <button type="button" v-on:click="reveal" class="vue-btn btn btn-success">Reveal the Secret Number</button>
+        <!-- WE CAN USE SHORTHAD "@" INSTEAD OF v-on -->
+	    </div>
+	  </div>
+  </div>
+	<script>
+		var app = new Vue({
+			el: '#app',
+			data: {
+        secretNumber: Math.floor(Math.random() * 100) + 1
+      },
+      methods: {
+        reveal() {
+          alert(`Here is your secret number: ${this.secretNumber} `)
+        }
+      }
+		})
+	</script>
+</body>
+</html>
